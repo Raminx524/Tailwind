@@ -4,9 +4,9 @@ import hamburger from "../assets/icon-hamburger.svg";
 
 function NavBar() {
   return (
-    <nav className="flex justify-between p-4">
+    <nav className="flex justify-between p-7">
       <img src={logo} alt="Insure" />
-      <img src={hamburger} alt="Insure" />
+      <img src={hamburger} alt="See More" />
     </nav>
   );
 }
